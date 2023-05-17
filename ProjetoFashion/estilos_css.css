@@ -1,0 +1,110 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    width: 1024px;
+    margin: 20px auto;
+}
+
+.header_principal{
+    height: 50px;
+    background-color: #162028;
+    position: relative;
+}
+
+header img{
+    margin-left: 250px;
+    margin-top: 6px;
+}
+
+.header_nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.header_nav li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.header_nav a{
+    color: rgb(2, 110, 110);
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+.header_nav a:hover{
+    color: aquamarine;
+}
+
+.texto_fashion{
+    text-align: center;
+}
+
+.texto_fashion h1{
+    font-size: 36px;
+    color: 252525;
+}
+
+.texto_fashion p{
+    font-size: 16px;
+    color: #555;
+    line-height: 2;
+}
+
+.gallery{
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+    color: #555;
+}
+
+.gallery-card{
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+
+.gallery-title{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #162028;
+}
+
+.informacoes_fashion{
+    background-image: url(imagens/bg_detalhe.png);
+    background-size: cover;
+    background-position: bottom right;
+    height: 400px;
+    padding: 120px;
+    color: white;
+}
+
+.informacoes_fashion h2{
+    font-size: 42px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px black;
+}
+
+.informacoes_fashion p{
+    padding-right: 300px;
+}
+
+.contact{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #162028;
+}
+
+footer{
+    background-color: #162028;
+    padding: 7px;
+    text-align: center;
+    color: #797979;
+    text-shadow: 2px 2px 3px black;
+}
